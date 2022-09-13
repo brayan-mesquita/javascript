@@ -15,7 +15,7 @@ console.log(typeof(float))
 lista[2] = ['123', '456']//Alterando valor de lista, adicionando outra lista criada
 
 //visualizando lista dentro de lista
-console.log(lista[2])
+console.log(lista)
 
 //BOOLEANO
 a = true && false
@@ -35,9 +35,11 @@ const pessoa = {
 //imprimindo informações do objeto
 console.log(pessoa.nome.toLocaleLowerCase())
 splitar = pessoa.nome.split(',')
-console.log(splitar[3])//mostrando 2 iten lista criada
+console.log(`variavel splitar: ${splitar}`)
+console.log(`O 4 item da variavel: ${splitar[3]}`)//mostrando 2 iten lista criada
 console.log(pessoa.hoobs[1].toUpperCase())
 
 //alterar informações do objeto, 2 elementos de hoobs
 pessoa.hoobs[1] = 'tocar bateria'
+pessoa.hoobs[2] = 'tocar guitarra'
 console.log(pessoa.hoobs)
