@@ -11,7 +11,6 @@ if (a == 1 || b != a) {
 if (a == 1+1 && b != a) {
     console.log("Terceira condição atendida")
 }
-
 // atribuindo valor a variavel a partir de condicao
 let number;
 function numero(){
@@ -23,7 +22,6 @@ function numero(){
 numero()
 
 // exemplo case em carros
-
 const car = ["fusca", "kombi", "onix"]
 switch(car[1]){
     case "fusca":
@@ -33,8 +31,6 @@ switch(car[1]){
         console.log("o carro é kombi")
         break
 }
-
-
 //testando valores logicos de variáveis
 function teste(variavel){
     if(variavel){
