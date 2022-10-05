@@ -31,31 +31,3 @@ switch(car[1]){
         console.log("o carro é kombi")
         break
 }
-//testando valores logicos de variáveis
-function teste(variavel){
-    if(variavel){
-        console.log('passou')
-    }
-    else{
-        console.log('não passou')
-    }
-}
-teste(!null)
-teste(3)
-teste(!3)//exclação invert sinal
-
-
-//testar lista vazia
-let carros = ['onix', 'fusca']
-let motos = []
-
-function listaocupada(x){
-    if (x.length > 0){
-        console.log(`${x} tem valor`)
-    }
-    else{
-        console.log(`${x.name} não tem valor`)
-    }
-}
-listaocupada(carros)
-listaocupada(motos)
