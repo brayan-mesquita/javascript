@@ -20,18 +20,19 @@ const person ={
 const {firstname:primeironome,
      lastname,
       age,
-       hoobies,
+       hoobies:lazer,
         dog:{name:dogname}
     } = person
 //firtname foi mudado para primeironome
 //no dog retornou apenas o nome como sky
 
-console.log(primeironome.toLocaleUpperCase())
-console.log(hoobies)
+//console.log(primeironome.toLocaleUpperCase())//BRAYAN
+console.log(lazer)//imprimiu valor de hoobs como lazer
 
-//acessar ultimo hoobies e salvar
-terceirobbies = hoobies[2]
-console.log(terceirobbies)
+//colcando mais um item lista de hobss
+lazer[3] = 'linux'
+//console.log(terceirobbies)
+console.log(lazer)//imprimiu valor de hoobs como lazer
 
 
 //CRIAR NOVAS PROPRIEDADES para o objeto
@@ -41,10 +42,12 @@ person.job = 'Policial civil'
 //novo objetos cursos para person
 person.cursos = {
     1:'ciências contáveis',
-    2:'ciências de dados'}
+    2:'ciências de dados',
+    'programacao':'programacao',
+}
 
 //IMPRIMIR VALORES
 //console.log(person)
 //console.log(person.dog.name)//sky
-//console.log(person.cursos)//retorna lista
-console.log(dogname.toUpperCase())//sky
+console.log(person.cursos['programacao'].toUpperCase())//retorna lista
+//console.log(dogname.toUpperCase())//sky

@@ -18,16 +18,16 @@ function teste(variavel){
 let carros = ['onix', 'fusca']
 let motos = []
 
-function listaocupada(x){
-    if (x.length > 0){
-        console.log(`${x} tem valor`)
+function verifica_lista_ocupada(lista){
+    if (lista.length > 0){
+        console.log(`${lista} tem valor`)
     }
     else{
-        console.log(`${x.name} não tem valor`)
+        console.log(`${lista.name} não tem valor`)
     }
 }
-//listaocupada(carros)
-//listaocupada(motos)
+//verifica_lista_ocupada(carros)
+//verifica_lista_ocupada(motos)
 
 //funcao soma
 function somar(a, b){
