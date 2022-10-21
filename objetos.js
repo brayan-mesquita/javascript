@@ -1,4 +1,4 @@
-const person ={
+const person = {
     firstname: 'brayan',
     lastname: 'mesquita',
     age: '20',
