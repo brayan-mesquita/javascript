@@ -2,6 +2,12 @@
 const a = 1 + 1;//2
 const b = 2 + 2;//4
 
+if(23 != 12){
+    const inteiro = 23;
+}else{
+    const inteiro = 12;
+}
+
 if(a != 1+2){
     console.log("A difere de 1 + 2")
 }

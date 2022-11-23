@@ -2,13 +2,13 @@
 const texto = 'ola, mundo'
 const numero = 20
 const float = 20.3 //não direfere numero e float como python
-const lista = ['brasil', 'casa', 123]
+const lista = ['brasil', 'casa', 123, [1, 3, 4]]
 
 // //TIPOS
 console.log(typeof(texto))
 console.log(typeof(numero))
-console.log(typeof(lista))
 console.log(typeof(float))
+console.log(typeof(lista))
 
 
 // //LISTAS
@@ -26,6 +26,13 @@ console.log(`${a}, ${b}, ${c}, ${d}`)
 
 
 // //OBJETO
+
+const veiculos = {
+    nome: ['fusca', 'onix', 'kombi'],
+    km : [233, 345, 123]
+}
+console.log(veiculos.nome[1].toUpperCase())//onix
+
 const pessoa = {
     nome:'brayan,miguel,joao,patricia', 
     idade: 30,
@@ -33,7 +40,8 @@ const pessoa = {
 }
 
 //imprimindo informações do objeto
-console.log(pessoa.nome.toLocaleLowerCase())
+pessoa.nome = pessoa.nome.toUpperCase()
+console.log(pessoa.nome)
 splitar = pessoa.nome.split(',')
 console.log(splitar)//listar dos valores separados por virgula
 console.log(`variavel splitar: ${splitar}`)
